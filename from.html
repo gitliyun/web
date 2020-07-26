@@ -7,20 +7,47 @@
 <body>
 <form action="#">
     <div>
-        <label for="name">请输入用户名：</label>
-        <input type="text" id="name">
+<!-- action设置数据提交地址  label表示表格标签 type设置控件类型-->
+        <label for="name">姓名：</label>
+        <!--        -->
+        <input type="text" id="name" name="name" placeholder="请输入用户名">
     </div>
     <div>
-        <label for="pass">请输入密码：</label>
-        <input type="password" id="pass">
+        <label for="pass">密码：</label>
+        <input type="password" id="pass" name="name" placeholder="请输入密码">
     </div>
     <div>
-        <label for="xl">请输入学历：</label>
+        <label for="xl">学历：</label>
+        <!--   select表示下拉列表框元素，使用option设置列表项 valus是设置控件的值 -->
         <select name="xl" id="xl">
             <option value="1">大学</option>
             <option value="2">中学</option>
             <option value="3">小学</option>
         </select>
+    </div>
+    <div>
+        <label for="sex">性别：</label>
+        <!--    单选按钮元素  checked为默认男 readonly只读 -->
+        <input type="radio" name="sex" value="1" checked/>男
+        <input type="radio" name="sex" readonly value="2"/>女
+    </div>
+    <div>
+        <label for="like">爱好：</label>
+        <!--   checkbox多选按钮元素  checked为默认选中  -->
+        <input type="checkbox" name="like1"/>编程
+        <input type="checkbox" name="like2"checked/>游戏
+        <input type="checkbox" name="like3"/>游戏
+    </div>
+    <div>
+        <!-- textarea文本格式-->
+        <label for="demo">简介：</label>
+        <!--textarea表示输入多行多列文本内容 -->
+        <textarea name="demo" id="" cols="30" rows="10"></textarea>
+    </div>
+    <div>
+        <!--disabled不可用-->
+        <input type="submit" value="注册"/>
+        <input type="reset" disabled value="重置">
     </div>
 </form>
 </body>
