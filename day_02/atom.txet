@@ -1,0 +1,255 @@
+1、atom常用快捷键
+
+
+Csscomb此插件用来格式化css文件，可以使用右键--->Css Comb或者ctrl+alt+c进行格式化
+
+atom-html-preview此插件用于实时查看网页的显示效果，使用ctrl+shift+h来进行网页显示
+
+Atom Ternjs此插件用来JS代码智能提示补全。
+
+autocomplete-paths用于补全路径
+
+Color Picker用于调出取色板，快捷键ctrl+alt+c
+
+Docblockr Package注释插件，可以像myeclipse中注释那样。
+
+JavaScript Snippets** JS** 代码片段补全，使用较为复杂，可以在设置中心查看
+
+emmet html代码补全插件，使用较为复杂，可以在设置中心查看
+
+atom-jquery-snippets这是一个jquery提示补全插件
+
+文件操作
+
+ctrl-shift-s保存所有打开的文件
+
+ctrl-shift-o打开目录
+
+ctrl-\\显示或隐藏目录树
+
+ctrl-0焦点移到目录树目录树下，使用a，m，delete来增加，修改和删除（有点问题）
+
+ctrl-p从添加的项目中查找文件
+
+ctrl-b在打开的文件之间切换
+
+ctrl-shift-b只搜索从上次 git commit后修改或者新增的文件
+
+ctrl-g 移动到指定行
+
+ctrl-上, ctrl-下 使当前行向上或者向下移动
+
+ctrl-enter,ctrl-shift-enter在当前行的下一行或上一行插入新的一行
+
+ctrl-shift-D 复制当前行到下一行
+
+ctrl-shift-K 删除当前行
+
+导航
+
+ctrl-p前一行（有点问题，我的是用于切换或打开文件）
+
+ctrl-n后一行（有点问题，我的是新建一个文件）
+
+ctrl-f前一个字符（这个是搜索）
+
+ctrl-b后一个字符（也是用来切换或打开文件）
+
+alt-B, alt-left移动到单词开始
+
+alt-F, alt-right移动到单词末尾
+
+ctrl-E移动到一行结束（有点问题）
+
+ctrl-A移动到一行开始（有点问题）
+
+ctrl-up移动到文件开始（有点问题）
+
+ctrl-down移动到文件结束（有点问题）
+
+ctrl-g移动到指定行row:column 处
+
+ctrl-r在方法之间跳转
+
+目录树操作
+
+ctrl-\\显示(隐藏)目录树
+
+ctrl-0焦点切换到目录树(再按一次或者Esc退出目录树)
+a添加文件
+d将当前文件另存为(duplicate)
+i显示(隐藏)版本控制忽略的文件
+
+alt-right 和 alt-left展开(隐藏)所有目录
+
+ctrl-al-] 和 ctrl-al-[同上
+
+ctrl-[ 和 ctrl-]展开(隐藏)当前目录
+
+ctrl-f 和 ctrl-b同上
+
+ctrl-k h 或者 ctrl-k left 在左半视图中打开文件
+
+ctrl-k j 或者ctrl-k down在下半视图中打开文件
+
+ctrl-k k 或者ctrl-k up在上半视图中打开文件
+
+ctrl-k l 或者 ctrl-k right 在右半视图中打开文件
+
+ctrl-shift-C 复制当前文件绝对路径
+
+书签
+
+cmd-F2 在本行增加书签
+
+F2 跳到当前文件的下一条书签
+
+shift-F2 跳到当前文件的上一条书签
+
+ctrl-F2 列出当前工程所有书签
+
+选取
+大部分和导航一致，只不过加上shift
+
+ctrl-shift-P选取至上一行（有问题）
+
+ctrl-shift-N选取至下一行（有问题，我的是开启一个新窗口）
+
+ctrl-shift-B选取至前一个字符（有问题）
+
+ctrl-shift-F选取至后一个字符（有问题）
+
+alt-shift-B, alt-shift-left 选取至字符开始
+
+alt-shift-F, alt-shift-right选取至字符结束
+
+ctrl-shift-E 选取至本行结束（有问题）
+
+ctrl-shift-A选取至本行开始（有问题）
+
+cmd-shift-up 选取至文件开始（有问题）
+
+cmd-shift-down选取至文件结尾（有问题）
+
+cmd-A 全选
+
+cmd-L 选取一行，继续按回选取下一行
+
+ctrl-shift-W选取当前单词（有问题，我的是关闭atom）
+
+编辑和删除文本
+基本操作
+
+ctrl-T使光标前后字符交换
+
+ctrl-J将下一行与当前行合并
+
+ctrl-cmd-up, ctrl-cmd-down 使当前行向上或者向下移动（有问题）
+
+ctrl-shift-D 复制当前行到下一行
+
+ctrl-K, ctrl-U 使当前字符大写（有问题）
+
+ctrl-K, ctrl-L 使当前字符小写（有问题）
+
+删除和剪切
+
+ctrl-shift-K删除当前行
+
+ctrl-backspace删除到当前行开始
+
+ctrl-fn-backspace 删除到当前行结束
+
+ctrl-K剪切到当前行结束
+
+alt-backspace或 alt-H 删除到当前单词开始
+
+alt-delete 或 alt-D 删除到当前单词结束
+
+多光标和多处选取
+
+ctrl-click增加新光标（有问题）
+
+ctrl-shift-L将多行选取改为多行光标
+
+ctrl-shift-up, ctrl-shift-down 增加上（下）一行光标
+
+ctrl-D选取文档中和当前单词相同的下一处
+
+ctrl-cmd-G 选取文档中所有和当前光标单词相同的位置（有问题）
+
+括号跳转
+
+ctrl-m 相应括号之间，html tag之间等跳转
+
+ctrl-cmd-m括号(tag)之间文本选取（有问题）
+
+alt-ctrl-.关闭当前XML/HTML tag（有问题）
+
+编码方式
+
+ctrl-shift-U调出切换编码选项
+查找和替换
+
+ctrl-F在buffer中查找
+
+ctrl-shift-f在整个工程中查找
+
+代码片段
+
+alt-shift-S查看当前可用代码片段
+在~/.atom目录下snippets.cson文件中存放了你定制的snippets
+定制说明
+自动补全
+
+ctrl-space提示补全信息
+折叠
+
+alt-ctrl-[折叠
+
+alt-ctrl-]展开
+
+alt-ctrl-shift-{折叠全部
+
+alt-ctrl-shift-}展开全部
+
+ctrl-k ctrl-N指定折叠层级 N为层级数
+
+文件语法高亮
+
+ctrl-shift-L选择文本类型
+使用Atom进行写作ctrl-shift-M
+Markdown预览可用代码片段b, legal, img, l, i, code, t, table
+
+git操作
+
+ctrl-alt-Zcheckout HEAD 版本
+
+ctrl-shift-B弹出untracked和 modified文件列表
+
+alt-g down/alt-g up在修改处跳转
+
+alt-G D弹出diff列表
+
+alt-G O在github上打开文件
+
+alt-G G在github上打开项目地址
+
+alt-G B在github上打开文件
+
+blamealt-G H 在github上打开文件
+
+historyalt-G I在github上打开issues
+
+alt-G R在github打开分支比较
+
+alt-G C拷贝当前文件在gihub上的网址
+
+其他
+可以自己设置快捷键：文件--->用户键盘映射
+
+ctrl+/可以对某段选中的文本进行注释或取消注释
+shift-alt-k光标向上移动
+shift-alt-j光标向下移动
+shift-alt-h光标向左移动
+shift-alt-l光标向右移动
