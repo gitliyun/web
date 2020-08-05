@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parent{
+            width: 322px;
+            height: 190px;
+            border: solid 1px red;
+            margin: 0 auto;
+            position: relative;
+        }
+        #parent>#child{
+            width: 322px;
+            height: 35px;
+            background-color:rgba(0, 0, 255, 0.5);
+            position: absolute;
+            bottom: 0;
+            color: #fff;
+            text-align: center;
+            font-size: 25px;
+        }
+        img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <img src="slice002.png" alt="">
+        <div id="child">这是一张电表</div>
+    </div>
+</body>
+</html>
